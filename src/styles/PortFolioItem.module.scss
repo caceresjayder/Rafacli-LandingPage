@@ -1,0 +1,64 @@
+@import '_vars.scss';
+
+
+.portfolioitems{
+    margin: 0 1.2rem;
+}
+
+.portfolioitems-container{
+    width: 25rem;
+    height: 20rem;
+    padding: 1rem;
+    position: relative;
+    border: 1px solid $fourth-color;
+    border-radius: 0.4rem;
+    margin-top: 1.2rem;
+}
+
+.text-container{
+    background-color: rgba($primary-color, 0.4);
+    height: 18rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.text-container p{
+    color: $text-color;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+.text-container p:nth-child(1){
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+}
+
+.text-container p span:nth-child(1){
+    color: $fourth-color
+}
+
+.text-container a{
+    color: $fourth-color;
+    font-weight: 700;
+    font-size: 1.4rem;
+    align-self: flex-end;
+    margin-top: 1.2rem;
+}
+
+.img-container{
+    background-color: rgba($text-color, 0.4);
+    border-radius: 50%;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    width: 6rem;
+    margin-left: 1.2rem;
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

@@ -1,0 +1,48 @@
+@import '_vars.scss';
+
+.contacts{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-info{
+    background-color: rgba($primary-color, 0.4);
+    border: 1px solid $fourth-color;
+    width: 280px;
+    height: 100px;
+    border-radius: 5px;
+    margin: 12px;
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    padding: 10px;
+}
+
+.contact-info a{
+    color: $text-color;
+    font-size: 1.4rem;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.contact-info a{
+
+}
+
+@media(max-width: 550px){
+
+    .contacts-container{
+        justify-content: center;
+        margin-top: 9rem;
+
+    }
+    }

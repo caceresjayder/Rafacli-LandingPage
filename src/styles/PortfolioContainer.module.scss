@@ -1,0 +1,17 @@
+@import "_vars.scss";
+
+.portfoliocontainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70vh;
+}
+
+@media(max-width: 550px){
+
+.portfoliocontainer{
+    justify-content: center;
+    margin-top: 9rem;
+
+}
+}

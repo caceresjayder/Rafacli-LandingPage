@@ -1,0 +1,46 @@
+@import '_vars.scss';
+
+.abilities{
+    width: 100%;
+}
+
+.abilities-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ability-info{
+    background-color: rgba($primary-color, 0.4);
+    margin: 1.2rem;
+    border: 1px solid $fourth-color;
+    width: 25rem;
+    padding: 2rem;
+}
+
+.ability-info p{
+    color: $primary-color;
+    background-color: $fourth-color;
+    height: 2rem;
+    width: 100%;
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-left: 0.4rem;
+}
+
+.ability-info li{
+    margin-top: 0.8rem;
+    font-size: 1.2rem;
+    color: $text-color;
+    list-style:inside;
+}
+
+@media(max-width: 550px){
+    .abilities{
+    }
+    .abilities-container{
+        justify-content: center;
+        margin-top: 9rem;
+    }
+}
