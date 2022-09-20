@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <AppContext.Provider value={initialState}>
       <Header />
-      <PresentationCointainer/>
+      <PresentationCointainer />
       <Component {...pageProps} />
     </AppContext.Provider>
   );

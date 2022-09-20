@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Welcome to RafaCLi's Site</title>
+        <title>Welcome to RafaCLis Site</title>
       </Head>
     </>
   );
