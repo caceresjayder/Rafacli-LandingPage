@@ -29,8 +29,7 @@ export default function AboutMe() {
 
               <div className={styles['flip-card-back']}>
                 <span>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis in quisquam culpa doloribus distinctio dolore obcaecati eligendi corporis, hic iusto quis nisi veniam, beatae
-                  necessitatibus, nemo enim amet saepe consequuntur.
+                Being in shape is the best way to deal with day-to-day problems. A healthy body allows us to develop our ability to solve difficult problems in the most efficient and clean way possible.
                 </span>
               </div>
             </div>
@@ -48,8 +47,7 @@ export default function AboutMe() {
 
               <div className={styles['flip-card-back']}>
                 <span>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis in quisquam culpa doloribus distinctio dolore obcaecati eligendi corporis, hic iusto quis nisi veniam, beatae
-                  necessitatibus, nemo enim amet saepe consequuntur.
+                Muay Thai is a mixed martial art that requires a lot of discipline, focused people also require great discipline to achieve their goals, so training helps maintain perseverance and resilience in the face of great challenges.
                 </span>
               </div>
             </div>
@@ -66,8 +64,7 @@ export default function AboutMe() {
 
               <div className={styles['flip-card-back']}>
                 <span>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis in quisquam culpa doloribus distinctio dolore obcaecati eligendi corporis, hic iusto quis nisi veniam, beatae
-                  necessitatibus, nemo enim amet saepe consequuntur.
+                Traveling is part of those people who want to be up to date with the cultures of what lies beyond our borders, knowing new places keeps us aware that there are no limits to our dreams.
                 </span>
               </div>
             </div>
@@ -89,8 +86,7 @@ export default function AboutMe() {
 
               <div className={styles['flip-card-back']}>
                 <span>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis in quisquam culpa doloribus distinctio dolore obcaecati eligendi corporis, hic iusto quis nisi veniam, beatae
-                  necessitatibus, nemo enim amet saepe consequuntur.
+                A leader is that person who, regardless of the future, is willing to teach what he knows so that together with his team he can achieve the proposed goals.
                 </span>
               </div>
             </div>
@@ -107,8 +103,7 @@ export default function AboutMe() {
 
               <div className={styles['flip-card-back']}>
                 <span>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis in quisquam culpa doloribus distinctio dolore obcaecati eligendi corporis, hic iusto quis nisi veniam, beatae
-                  necessitatibus, nemo enim amet saepe consequuntur.
+                Comfortable spaces are those that regardless of your culture you can feel comfortable, integrating these spaces can sometimes be a challenge for recruiters but choosing the right people can create a great place to work.
                 </span>
               </div>
             </div>
@@ -125,8 +120,7 @@ export default function AboutMe() {
 
               <div className={styles['flip-card-back']}>
                 <span>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis in quisquam culpa doloribus distinctio dolore obcaecati eligendi corporis, hic iusto quis nisi veniam, beatae
-                  necessitatibus, nemo enim amet saepe consequuntur.
+                Respect must be a required quality for companies today, I think that, regardless of the situation, we must be empathetic with our colleagues, each one is a world and despite that we are all human beings.
                 </span>
               </div>
             </div>
@@ -143,8 +137,7 @@ export default function AboutMe() {
 
               <div className={styles['flip-card-back']}>
                 <span>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis in quisquam culpa doloribus distinctio dolore obcaecati eligendi corporis, hic iusto quis nisi veniam, beatae
-                  necessitatibus, nemo enim amet saepe consequuntur.
+                Learning is a tool by which we can become more skilled at solving complex problems and it keeps us up to date with new technologies that arise every day.
                 </span>
               </div>
             </div>

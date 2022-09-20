@@ -55,16 +55,6 @@ export default function Abilities(){
                         })}
                     </ul>
                 </div>
-                <div className={styles['ability-info']}>
-                    <p className={styles['ability-info-bar']}>
-                        Additional
-                    </p>
-                    <ul>
-                        {abilities.additional.map((item)=>{
-                            return <li>{item}</li>
-                        })}
-                    </ul>
-                </div>
             </div>
         </div>
     )    

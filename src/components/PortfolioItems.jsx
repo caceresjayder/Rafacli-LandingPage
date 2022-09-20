@@ -10,7 +10,7 @@ import styles from '@styles/PortFolioItem.module.scss'
 export default function PortfolioItems(props) {
     const HTML = html;
     const Python = python;
-    const Javacript = javascript;
+    const JavaScript = javascript;
     return(
         <div className={styles.portfolioitems}>
             <div className={styles['portfolioitems-container']}>
