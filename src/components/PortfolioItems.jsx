@@ -7,6 +7,7 @@ import dateFormat from 'dateformat';
 import styles from '@styles/PortFolioItem.module.scss';
 
 export default function PortfolioItems(props) {
+  console.log(props.repo)
   const img = () => {
     if (props.repo.language.includes('HTML')) return HTML;
     if (props.repo.language.includes('JavaScript')) return JavaScript;
@@ -26,7 +27,7 @@ export default function PortfolioItems(props) {
           </p>
           <p>{`Programing Lang: ` + props.repo.language}</p>
           <p>{`Description: ` + props.repo.description}</p>
-          <p>{`Last update: ` + dateFormat(props.repo.updated_at, 'mmmm dd, yyyy')}</p>
+          <p>{`Last update: ` + dateFormat(props.repo.pushed_at, 'mmmm dd, yyyy')}</p>
           <a href={props.repo.html_url} target="_blank" rel="noreferrer">
             Link to Github
           </a>
