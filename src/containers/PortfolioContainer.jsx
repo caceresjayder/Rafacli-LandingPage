@@ -2,6 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import { Octokit } from 'octokit';
 import PortfolioItems from '@components/PortfolioItems';
+import Link from 'next/link';
 import styles from '@styles/PortfolioContainer.module.scss';
 
 const APIKEY = process.env.API_KEY_GITHUB;
@@ -24,10 +25,16 @@ export default function PortfolioContainer() {
     }
   }, []);
   return (
-    <div className={styles.portfoliocontainer}>
-      {repos.map((repo) => {
-        return <PortfolioItems key={repo.id} repo={repo} />;
-      })}
+    <div>
+      <div className={styles.link}>
+        <p>Visit a playground with my projects</p>
+        <Link href="https://playground.rafacli.site" legacyBehavior><a target="_blank" >Go to Playground!</a></Link>
+      </div>
+      <div className={styles.portfoliocontainer}>
+        {repos.map((repo) => {
+          return <PortfolioItems key={repo.id} repo={repo} />;
+       })}
+     </div>
     </div>
   );
 }
