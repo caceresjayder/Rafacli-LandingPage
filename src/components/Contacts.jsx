@@ -41,14 +41,6 @@ export default function Contacts() {
             Channel
           </a>
         </div>
-        <div className={styles['contact-info']}>
-          <Image alt="tiktok" src={TikTok} width={50} height={50} />
-          <a href="https://www.tiktok.com/@rfacode" target="_blank" rel="noopener noreferrer">
-            Tik Tok
-            <br />
-            Channel
-          </a>
-        </div>
       </div>
     </div>
   );
