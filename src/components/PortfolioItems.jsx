@@ -7,7 +7,6 @@ import dateFormat from 'dateformat';
 import styles from '@styles/PortFolioItem.module.scss';
 
 export default function PortfolioItems(props) {
-  console.log(props.repo)
   const img = () => {
     if (props.repo.language.includes('HTML')) return HTML;
     if (props.repo.language.includes('JavaScript')) return JavaScript;
