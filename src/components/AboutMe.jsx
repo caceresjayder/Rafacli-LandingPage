@@ -1,5 +1,9 @@
 import React from 'react';
+import CpuImg from '@assets/cpu.png'
+import KeyboardImg from '@assets/keyboard.png'
+import ScreenImg from '@assets/screen.png'
 import styles from '@styles/AboutMe.module.scss';
+import Image from 'next/image';
 
 export default function AboutMe() {
   const gymImg = 'https://images.pexels.com/photos/669585/pexels-photo-669585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1';
@@ -13,6 +17,39 @@ export default function AboutMe() {
   return (
     <div className={styles.aboutme}>
       <div className={styles['aboutme-container']}>
+      <div className={styles.title}>
+          <h2>My Setup</h2>
+        </div>
+        <div className={styles['setup-container']}>
+          <div className={styles['draw']}>
+            <Image src={ScreenImg} width={100} height={100} alt="screen-img"/>
+            <p className={styles['screen-descriptions']}>
+            <li>Monitor 29" LG-20WQ600</li><br/>
+            <li>Monitor 24" Iceberg Spacemax-G24X5 RGB</li>
+          </p>
+          </div>
+          <div className={styles['draw']}>
+          <Image src={CpuImg}  width={100} height={100} alt="screen-img"/>
+          <p className={styles['screen-descriptions']}>
+            <li>Cpu Intel 13900KF</li><br/>
+            <li>Motherboard Z690 Elite AX</li>
+            <li>32Gb Ram DDR5 Kingston Fury</li>
+            <li>1TB NVMe.2 XPG S40</li>
+            <li>Graphic Card Asus Geforce RTX 3060Ti</li>
+            <li>Liquid Refigeration Levante 240</li>
+          </p>
+
+          </div>
+          <div className={styles['draw']}>
+          <Image src={KeyboardImg}  width={100} height={100} alt="screen-img"/>
+          <p className={styles['screen-descriptions']}>
+            <li>Mechanic Keyboard Cooler Master CK721</li><br/>
+            <li>Mouse Logitech G305</li>
+            <li>Camera Logitech C615</li>
+          </p>
+
+          </div>
+        </div>
         <div className={styles.title}>
           <h2>Hobbies</h2>
         </div>
