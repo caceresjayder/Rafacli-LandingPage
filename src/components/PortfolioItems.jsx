@@ -3,6 +3,8 @@ import React from 'react';
 import HTML from '@assets/html.png';
 import Python from '@assets/python.png';
 import JavaScript from '@assets/javascript.png';
+import Typescript from '@assets/typescript.png';
+import Solidity from '@assets/solidity.png';
 import dateFormat from 'dateformat';
 import styles from '@styles/PortFolioItem.module.scss';
 
@@ -11,6 +13,8 @@ export default function PortfolioItems(props) {
     if (props.repo.language.includes('HTML')) return HTML;
     if (props.repo.language.includes('JavaScript')) return JavaScript;
     if (props.repo.language.includes('Python')) return Python;
+    if (props.repo.language.includes('TypeScript')) return Typescript;
+    if (props.repo.language.includes('Solidity')) return Solidity;
   };
   return (
     <div className={styles.portfolioitems}>
