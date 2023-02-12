@@ -15,8 +15,11 @@ export default function PortfolioContainer() {
 
   useEffect(() => {
     async function fetchData() {
+      let aux = []
       const res = await octokit.request('GET /users/caceresjayder/repos', {});
-      setRepos(res.data);
+      aux = [...res.data]
+      aux.sort((a,b)=>{ return new Date(b.pushed_at) - new Date(a.pushed_at)})
+      setRepos(aux);
     }
     try {
       fetchData();
